@@ -1,0 +1,811 @@
+[30-Sep-2024 16:09:14 UTC] PHP Warning:  Undefined array key "erase_plugin_data" in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\pinterest-for-woocommerce\uninstall.php on line 21
+[30-Sep-2024 16:16:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:22:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:22:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:24:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:25:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:25:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:29:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:29:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:31:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:33:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:33:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:34:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:40:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:40:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:41:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:41:08 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:41:08 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:43:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:43:03 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:43:03 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:45:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:45:30 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:45:30 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:47:35 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[30-Sep-2024 16:47:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:47:46 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:47:46 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:47:59 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:04 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:09 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:14 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:19 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:20 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:24 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:25 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:29 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:30 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[30-Sep-2024 16:48:30 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:34 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:35 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:39 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:40 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:44 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:45 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:49 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:50 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:51 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[30-Sep-2024 16:48:54 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:57 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:48:59 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:00 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:04 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:05 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:09 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:10 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:15 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:20 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:25 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:25 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:35 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:40 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:45 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:50 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:49:55 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:00 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:05 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:10 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:15 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:20 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:25 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:25 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:30 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:35 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:40 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:45 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:50 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:50:55 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:00 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:05 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:10 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:15 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:20 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:25 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:25 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:35 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:44 UTC] PHP Warning:  Undefined property: ImageOptimization\Modules\ConnectManager\Classes\Connect_Runner::$get_client_secret in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\image-optimization\modules\core\module.php on line 208
+[30-Sep-2024 16:51:44 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:51:45 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:52:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:52:16 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:52:16 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:52:25 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:53:14 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:53:25 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:53:42 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[30-Sep-2024 16:56:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 16:56:14 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:56:14 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 16:58:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 17:07:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 17:16:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 17:23:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 17:25:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 17:32:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 17:45:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 17:46:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 17:46:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[30-Sep-2024 17:46:51 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[30-Sep-2024 17:46:51 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 14:04:35 UTC] PHP Warning:  Undefined property: ImageOptimization\Modules\ConnectManager\Classes\Connect_Runner::$get_client_secret in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\image-optimization\modules\core\module.php on line 208
+[01-Oct-2024 14:04:35 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[01-Oct-2024 14:05:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:05:12 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 14:05:12 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 14:06:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:06:09 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 14:06:09 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 14:12:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:12:39 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 14:12:39 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 14:16:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:17:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:17:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:18:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:18:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:18:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:18:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:35:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:35:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:35:51 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 14:35:51 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 14:37:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 14:47:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\index.php(17): require('C:\\Users\\franc\\...')
+#12 {main}
+  thrown in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[01-Oct-2024 15:04:42 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[01-Oct-2024 15:05:52 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[01-Oct-2024 15:11:38 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[01-Oct-2024 17:09:30 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 17:09:30 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 17:10:37 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 17:10:37 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 17:26:13 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[01-Oct-2024 17:26:13 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[02-Oct-2024 12:30:58 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[02-Oct-2024 12:30:58 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[02-Oct-2024 12:56:04 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[02-Oct-2024 12:56:04 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\franc\Local Sites\la-vie-des-plantes\app\public\wp-content\plugins\woocommerce\includes\customizer\class-wc-shop-customizer.php on line 950
+[02-Oct-2024 12:58:13 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
